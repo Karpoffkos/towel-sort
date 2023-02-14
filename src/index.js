@@ -5,7 +5,7 @@ module.exports = function towelSort (matrix) {
  // console.log(matrix, 5)
  let arr = [];
  console.log(arguments.length, 7);
- if(arguments.length == 0){ 
+ if(!arguments.length ){ 
     return [];
   }  
   else {
